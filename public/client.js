@@ -32,7 +32,9 @@ function takePicture(){
 //-- Addition: This function receives the new image name and applies it to html element.
 
 socket.on('newPicture', function(msg) {
-  document.getElementsByClassName('pictureContainer').src=msg;
+//  document.getElementById('pictureContainer').src=msg;
+    
+    document.body.style.backgroundImage = "url('" + msg + "')";
     
     
 });
