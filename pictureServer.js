@@ -51,8 +51,8 @@ http.listen(serverPort, function() {
 //Default options
 var opts = { //These Options define how the webcam is operated.
     //Picture related
-    width: 1280, //size
-    height: 720,
+    width: 800, //size
+    height: 800,
     quality: 100,
     //Delay to take shot
     delay: 0,
