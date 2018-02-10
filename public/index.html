@@ -4,6 +4,13 @@
         <meta charset="utf8"/>
         <title>Interaction Engine - Hello You!</title>
         <script src="/socket.io/socket.io.js"></script>
+        <style>
+            .grid-container {
+              display: grid;
+              grid-gap: 10px 10px;
+            } 
+        </style>
+        
     </head>
     <body>
         <body bgcolor="#000">
@@ -11,7 +18,37 @@
         <button onclick="ledOFF()">LED OFF</button>
         <button onclick="takePicture()">Take a picture</button>
       </br>
-        <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver">
-        <script src="client.js"></script>
+        
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver" height="100" width="100">
+            </div>
+            <div class="grid-item">
+                <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver" height="100" width="100">
+            </div>
+            <div class="grid-item">
+                <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver" height="100" width="100">
+            </div>
+            <div class="grid-item">
+                <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver" height="100" width="100">
+            </div>
+            <div class="grid-item">
+                <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver" height="100" width="100">
+            </div>
+            <div class="grid-item">
+                <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver" height="100" width="100">
+            </div>
+            <div class="grid-item">
+                <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver" height="100" width="100">
+            </div>
+            <div class="grid-item">
+                <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver" height="100" width="100">
+            </div>
+            <div class="grid-item">
+                <img src="" id= "pictureContainer" alt="WebCam image  made by the webserver" height="100" width="100">
+            </div>
+            
+            <script src="client.js"></script>
+        </div>
     </body>
 </html>
